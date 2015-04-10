@@ -16,5 +16,5 @@
   Discourse.Dialect.addPreProcessor(replaceFontColor);
   Discourse.Dialect.addPreProcessor(replaceFontBgColor);
   Discourse.Markdown.whiteListTag('font', 'color');
-  Discourse.Markdown.whiteListTag('span', 'style');
+  Discourse.Markdown.whiteListTag('span', 'style', 'background-color');
 })();
